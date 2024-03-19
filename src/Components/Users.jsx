@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 
 const Users = () => {
@@ -16,7 +16,8 @@ const Users = () => {
                                     <h2 className="card-title">Name: {User.name}</h2>
                                     <p>Email : {User.email}</p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Buy Now</button>
+                                        <Link to={`/users/${User.id}`}> <button className="btn btn-primary">Show Details</button></Link>
+                                       
                                     </div>
                                 </div>
                             </div>

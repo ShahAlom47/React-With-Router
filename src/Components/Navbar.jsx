@@ -26,6 +26,7 @@ const Navbar = () => {
             <Link className="navBtn" to={'/caro'}>Carousel</Link>
             <Link className="navBtn" to={'/users'}>Users</Link>
             <Link className="navBtn" to={'/login'}>Login</Link>
+      
           </ul>
         </div>
         <div className="navbar-end">

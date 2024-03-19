@@ -1,0 +1,12 @@
+.navBtn{
+    padding: 4px ;
+    border-radius: 8px;
+}
+.navBtn:hover{
+
+    background-color: rgb(193, 211, 189);
+}
+.navBtn:active{
+
+    transform: scale(0.95);
+}

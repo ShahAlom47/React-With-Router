@@ -24,6 +24,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 gap-4">
             <Link className="navBtn" to={'/'}>Home</Link>
             <Link className="navBtn" to={'/caro'}>Carousel</Link>
+            <Link className="navBtn" to={'/users'}>Users</Link>
             <Link className="navBtn" to={'/login'}>Login</Link>
           </ul>
         </div>

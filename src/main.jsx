@@ -12,6 +12,7 @@ import Home from './Components/Home.jsx'
 import Hero from './Components/Hero.jsx';
 import LoginForm from './Components/LoginForm.jsx';
 import Carousel from './Components/Carousel.jsx';
+import Users from './Components/Users.jsx';
 
 // import ErrorPage from './Components/ErrorMsg.jsx';
 
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
       {
         path:'/caro',
         element:<Carousel></Carousel>
+      },
+      {
+        path:'/users',
+        loader : ()=>fetch('https://jsonplaceholder.typicode.com/users'),
+        element: <Users></Users>
       }
     ]
  

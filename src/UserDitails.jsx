@@ -1,4 +1,4 @@
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 
 
 
@@ -13,6 +13,9 @@ const backhndel =()=>{
 navigate(-1)
 
 }
+
+const userId= useParams()
+console.log(userId.userId);
 
     return (
         <div className="text-center p-4 bg-slate-400">

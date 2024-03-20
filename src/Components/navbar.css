@@ -10,3 +10,8 @@
 
     transform: scale(0.95);
 }
+
+.active{
+
+    text-decoration: underline;
+}
